@@ -46,7 +46,8 @@ if [[ $RUN == "1" ]]; then
         python3-dbus \
         python3-gi \
         python3-pbr \
-        python3-pip
+        python3-pip \
+        gir1.2-wnck-3.0
 fi
 
 if [[ $MAKE == "1" ]]; then
